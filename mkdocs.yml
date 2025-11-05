@@ -29,3 +29,9 @@ nav:
         - Vignette: PostProcessing/Vignette.md
         - Gaussian Blur: PostProcessing/GaussianBlur.md
 
+
+  - Resources:
+      - Index: Resources/index.md
+
+      - Godot 4.X: Resources/godot.md
+
