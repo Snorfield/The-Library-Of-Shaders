@@ -9,7 +9,7 @@ Library of GLSL shaders and explanations to empower developers to learn shader d
 So you want to add your own articles or other stuff to this project. That's awesome, there's just a few rules for contribution.
 
 ### Rule 1
-Use the ShaderToy uniforms in all your code.
+Use the ShaderToy uniforms in all of your code.
 
 ```js
 Shader Inputs
