@@ -1,8 +1,8 @@
 # Welcome to the Library of Shaders
 
-The Library of Shaders is an open-source project that intends to release **copyright and license free** examples and explanations for shader effects, in order to empower developers to learn and develop shader effects.
+The Library of Shaders is an open-source project that intends to release **copyright and license free** examples and explanations of miscellaneous shader effects, in order to empower developers to learn and develop shader effects themselves.
 
-All shader code is written to be valid **GLSL** or **OpenGL Shading Language**. We define a few variables which match the [ShaderToy](https://www.shadertoy.com/new) environment for ease of testing, but they can be swiftly adapted.
+All shader code here is written to be valid **GLSL** or **OpenGL Shading Language**. We define a few variables which match the [ShaderToy](https://www.shadertoy.com/new) environment for ease of testing, but they can be easily adapted as needed.
 
 
 ## Variables
@@ -33,4 +33,4 @@ NOTICE: This should go without being said, but we strive to follow the principal
 
 ## Licensing and Copyright
 
-This entire library and all work inside it is licensed **Creative Commons Zero**. You can do anything you want with it, including clone the entire website. The license information is avalible on the [repository](https://github.com/Snorfield/The-Library-Of-Shaders/blob/main/LICENSE).
+This entire library, and all work inside it, is licensed **Creative Commons Zero**. You can do anything you want with it, including clone the entire website. The license information is avalible on the [repository](https://github.com/Snorfield/The-Library-Of-Shaders/blob/main/LICENSE).

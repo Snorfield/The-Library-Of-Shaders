@@ -1,4 +1,7 @@
 site_name: The Library Of Shaders
+site_description: Copyright and license free library of shaders and explanations to empower developers to learn shader development
+repo_url: https://github.com/Snorfield/The-Library-Of-Shaders
+
 extra_css:
   - css/custom.css
 
@@ -14,17 +17,18 @@ nav:
 
   - Shaders:
       - Vertex Shaders:
-        - Index: articles/vertex/index.md
+        - Index: Vertex/index.md
 
       - Fragment Shaders:
-        - Index: articles/fragment/index.md
+        - Index: Fragment/index.md
 
       - Post Processing:
-        - Index: articles/post/index.md
-        - Chromatic Aberration: articles/post/ChromaticAberration.md
-        - Bloom: articles/post/Bloom.md
-        - Vignette: articles/post/Vignette.md
-        - Gaussian Blur: articles/post/GaussianBlur.md
+        - Index: PostProcessing/index.md
+        - Chromatic Aberration: PostProcessing/ChromaticAberration.md
+        - Bloom: PostProcessing/Bloom.md
+        - Vignette: PostProcessing/Vignette.md
+        - Gaussian Blur: PostProcessing/GaussianBlur.md
+
 
   - Resources:
       - Index: articles/resources/index.md
