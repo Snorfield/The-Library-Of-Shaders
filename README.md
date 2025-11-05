@@ -25,6 +25,8 @@ uniform samplerXX iChannel0..3;          // input channel. XX = 2D/Cube
 uniform vec4      iDate;                 // (year, month, day, time in seconds)
 ```
 
+For certain effects that may use more then four input channels, you should specify that it won't work in ShaderToy in the article, and then continue incrementing the `iChannel` value by one (e.g `iChannel4`).
+
 It's recommended to also test the code before committing it. :)
 
 ### Rule 2
