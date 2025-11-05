@@ -8,7 +8,7 @@ All shader code here is written to be valid **GLSL** or **OpenGL Shading Languag
 ## Variables
 
 ```js
-Shader Inputs
+// ShaderToy uniforms
 uniform vec3      iResolution;           // viewport resolution (in pixels)
 uniform float     iTime;                 // shader playback time (in seconds)
 uniform float     iTimeDelta;            // render time (in seconds)
@@ -22,6 +22,10 @@ uniform vec4      iDate;                 // (year, month, day, time in seconds)
 ```
 
 These are the uniforms defined by **ShaderToy**, and the shader examples in this library use them, as mentioned before, for ease of testing.
+
+If ShaderToy does not have a uniform for a certain thing that the shader requires, it will be explained in the article, and the uniforms will still follow the naming convention for ShaderToy. An example of this is **vertex shaders**. As ShaderToy is mainly a playground for **fragment shaders**, there's nothing like `uniform mat4 iModel;`. However, we still have a section for vertex shaders, they just won't be able to run in the ShaderToy environment.
+
+Articles will explain any uniforms not available in ShaderToy, and you can refer back here to get an explanation for any uniforms which are available in ShaderToy.
 
 Other shading langages, such as Godot's shader language, are quite similar to GLSL, and therefore easy to adapt these shaders to.
 
