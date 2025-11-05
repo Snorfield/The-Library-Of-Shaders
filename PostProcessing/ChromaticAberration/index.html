@@ -131,7 +131,7 @@
             
             <li class="nav-item" data-bs-level="1"><a href="#chromatic-aberration" class="nav-link">Chromatic Aberration</a>
               <ul class="nav flex-column">
-            <li class="nav-item" data-bs-level="2"><a href="#edge-strengthing" class="nav-link">Edge Strengthing</a>
+            <li class="nav-item" data-bs-level="2"><a href="#edge-strengthening" class="nav-link">Edge Strengthening</a>
               <ul class="nav flex-column">
               </ul>
             </li>
@@ -172,7 +172,7 @@ vec2 blueAlpha = texture(iChannel0, normalizedCoords + blueOffset).ba;
 <p>Now, we can join it all together.</p>
 <pre><code class="language-js">fragColor = vec4(red, green, blueAlpha);
 </code></pre>
-<h2 id="edge-strengthing">Edge Strengthing</h2>
+<h2 id="edge-strengthening">Edge Strengthening</h2>
 <p>So, we've constructed our output color with the offset channels. This is oftentimes enough, but realistically, you'll only see chromatic aberration near the very edges of images, and not so much at the center.</p>
 <p>To make this effect more realistic, we can simulate that.</p>
 <p>We have the current normalized position in <code>normalizedCoords</code>. At the moment this ranges from 0 to 1, but with a bit of clever math we can get something cool.</p>
