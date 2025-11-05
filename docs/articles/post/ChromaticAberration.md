@@ -45,7 +45,7 @@ fragColor = vec4(red, green, blueAlpha);
 
 ## Edge Strengthing
 
-So, we've constructed our output color with the offset channels. This is often times enough, but realisitically, you'll only see chromatic aberration near the very edges of images, and not so much the center.
+So, we've constructed our output color with the offset channels. This is often times enough, but realistically, you'll only see chromatic aberration near the very edges of images, and not so much the center.
 
 To make this effect more realistic, we can simulate that.
 
@@ -108,4 +108,5 @@ void mainImage( out vec4 fragColor, in vec2 fragCoord )
     fragColor = vec4(red, green, blueAlpha);
 }
 ```
+
 
