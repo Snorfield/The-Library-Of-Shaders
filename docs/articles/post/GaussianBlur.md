@@ -1,3 +1,0 @@
-# Gaussian Blur
-
-// Coming soon

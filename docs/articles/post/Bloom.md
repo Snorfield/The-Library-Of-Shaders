@@ -1,3 +1,0 @@
-# Bloom
-
-// Coming soon
