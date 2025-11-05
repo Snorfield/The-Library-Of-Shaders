@@ -75,7 +75,7 @@ So you see, the values range from 0.5 at the bottom left, to 0.5 at the top righ
 
 This means that the effect will only really be visible around the edges, which is exactly what we want.
 
-However, it's probably not going to be that visible, as we've effectively halved it, seeing how we're multipling by at most, 0.5. So we can modify our absolute value line to increase it.
+However, it's probably not going to be that visible, as we've effectively halved it, seeing how we're multiplying by at most, 0.5. So we can modify our absolute value line to increase it.
 
 ```js
 shiftedCoords = abs(shiftedCoords) * 2.0;
@@ -108,5 +108,6 @@ void mainImage( out vec4 fragColor, in vec2 fragCoord )
     fragColor = vec4(red, green, blueAlpha);
 }
 ```
+
 
 
