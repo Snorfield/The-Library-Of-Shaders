@@ -31,5 +31,5 @@ nav:
 
 
   - Resources:
-      - Index: articles/resources/index.md
-      - Godot 4.X: articles/resources/godot.md
+      - Index: Resources/index.md
+      - Godot 4.X: Resources/godot.md
