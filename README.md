@@ -34,5 +34,26 @@ You agree that your code and articles are licensed **Creative Commons Zero**, an
 
 Write the code to be proper **GLSL** or **OpenGL Shading Language**, in terms of syntax. 
 
+## Dev Environment
+
+When writing articles, it's recommended to set up a development environment, so you can verify it works before submitting your changes. This is fairly straightfoward, as The Library Of Shaders uses MKDocs to generate the site.
+
+First off, clone the repository into the folder you want it in.
+```
+git clone https://github.com/The-Library-Of-Shaders/the-library-of-shaders.github.io.git
+```
+You can also download the repository as a ZIP file and extract it, if you don't have the CLI for git.
+
+Next, install the MkDocs Python package. 
+```
+pip install mkdocs
+```
+
+Finally, serve the site.
+```
+mkdocs serve
+```
+
+You now have a local copy of the library running on your localhost.
 
 
