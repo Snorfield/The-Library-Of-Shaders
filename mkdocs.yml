@@ -1,6 +1,7 @@
 site_name: The Library Of Shaders
 site_description: Copyright and license free library of shaders and explanations to empower developers to learn shader development
 repo_url: https://github.com/The-Library-Of-Shaders/the-library-of-shaders
+edit_uri: edit/main/docs/
 
 extra_css:
   - css/custom.css
