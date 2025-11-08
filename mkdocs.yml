@@ -22,7 +22,7 @@ nav:
       - Fragment Shaders:
         - Index: Fragment/index.md
 
-      - Post Processing:
+      - Post-Processing:
         - Index: PostProcessing/index.md
         - Chromatic Aberration: PostProcessing/ChromaticAberration.md
         - Bloom: PostProcessing/Bloom.md
