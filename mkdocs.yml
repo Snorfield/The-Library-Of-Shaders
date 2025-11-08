@@ -29,7 +29,5 @@ nav:
         - Vignette: PostProcessing/Vignette.md
         - Gaussian Blur: PostProcessing/GaussianBlur.md
 
-
-      - Resources:
-        - Index: Resources/index.md
+      - Resources: Resources/index.md
 
